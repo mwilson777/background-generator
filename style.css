@@ -3,7 +3,7 @@ body {
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: .3em;
     top: 15%;
     background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
@@ -13,7 +13,7 @@ h1 {
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: .3em;
     width: 100%;
     -webkit-text-stroke: 2px white;
     text-stroke: 2px white;
@@ -42,4 +42,13 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 
 input[type="color"]::-webkit-color-swatch {
     border: none;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.content-area {
+    width: 100%;
+    max-width: 981px;
 }
