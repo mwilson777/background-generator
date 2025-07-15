@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mwilson777/background-generator/issues"
   },
-  "homepage": "https://github.com/mwilson777/background-generator#readme"
+  "homepage": "https://github.com/mwilson777/background-generator#readme",
+  "dependencies": {
+    "latest-version": "^9.0.0"
+  }
 }
